@@ -1,0 +1,10 @@
+Belajar FastAPI
+
+
+uvicorn main:app --reload  agar ketika running dia ngereload sendiri
+
+
+DB Mongo DB credensial :
+
+username : hatamimohamad254_db_user
+pass : ImZghwL5Y9uCF0s2
