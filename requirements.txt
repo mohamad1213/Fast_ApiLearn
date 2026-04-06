@@ -1,2 +1,6 @@
 uvicorn
 fastapi
+pymongo
+passlib
+pwdlib[argon2]
+pyjwt

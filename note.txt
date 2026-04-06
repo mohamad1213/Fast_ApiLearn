@@ -8,3 +8,18 @@ DB Mongo DB credensial :
 
 username : hatamimohamad254_db_user
 pass : ImZghwL5Y9uCF0s2
+
+
+List pengejeraan :
+Introduction
+Query Path Parameter 
+Request Body enum
+get List filter
+MongoDB integration
+Mongo DB ObjectID dan query
+refactoring data done
+basic user reqistration dan login
+username uniq done
+password hashing done
+verify hashed password jika loginnya bener
+jangan mengembalikan data login yang sudah login agar tidak menumpuk cookis dengan dto_coommon  

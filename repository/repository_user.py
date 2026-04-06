@@ -12,6 +12,13 @@ class RepositoryUser:
         user_data = input_user.dict()
         self.db.users.insert_one(user_data)
         return {"message": "User registered successfully"}
+    
+    def find_user_by_username(self, username: str): ##make uniq username 
+        user = self.db.users.find_one({"username": username})
+        if user is not None:
+            return User.parse_obj(user)
+        return None
+    
     def find_user_by_username_password(self, input_login: InputLogin):
         user = self.db.users.find_one({"username": input_login.username, "password": input_login.password})
         if user is not None:
